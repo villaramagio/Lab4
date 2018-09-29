@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout_id"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="35dp"
+            android:text="TOAST"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Press for toast"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:textSize="35dp"
+            android:text="SNACKBAR"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_snackBar"
+            android:textSize="25dp"
+            android:text="Press for snackbar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:textSize="35dp"
+            android:text="SNACKBAR WITH ACT."
+            android:textColor="@color/colorPrimaryDark" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_snackBarWithAct"
+            android:textSize="25dp"
+            android:text="Press for snackbar with Activty"/>
+</LinearLayout>
+
+</LinearLayout>
